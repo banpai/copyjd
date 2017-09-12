@@ -1,0 +1,26 @@
+<!--QRCode.wxml-->
+<view class="page" style="{{windowHeight}}">
+    <!--<view class="fake" style="{{windowHeight}}">-->
+        <!--<view class="info" >-->
+            <!--&lt;!&ndash;<image src="{{avatar}}"></image>&ndash;&gt;-->
+            <!--&lt;!&ndash;<text>{{nickname}}</text>&ndash;&gt;-->
+            <!--<view class="qrbox" wx:if="{{qrShow}}">-->
+                <!--<image src="{{qrimg}}"></image>-->
+            <!--</view>-->
+            <!--<view wx:else class="share-page">-->
+                <!--<span class="iconfont icon-wodefenxiaoshang"></span>-->
+                <!--<text>您还不是分销商</text>-->
+            <!--</view>-->
+        <!--</view>-->
+    <!--</view>-->
+    <view class="qrImg" wx:if="{{qrShow}}" style="{{windowHeight}}">
+        <image src="{{qrimg}}"></image>
+    </view>
+    <view wx:else class="share-page">
+        <span class="iconfont icon-wodefenxiaoshang"></span>
+        <text>{{qrData}}</text>
+    </view>
+</view>
+<view class="loadding" wx:if="{{onLoaded}}">
+    <image src="../../public/images/loadding.gif"></image>
+</view>

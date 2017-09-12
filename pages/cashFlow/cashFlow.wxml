@@ -1,0 +1,23 @@
+<view class="page" wx:if="{{!onLoaded}}">
+  <!-- 分割块 -->
+  <view class="delblock"></view>
+  <view class="cashFlow-number">
+    <text>￥{{ok}}</text>
+  </view>
+  <!-- 分割块 -->
+  <view class="delblock"></view>
+  <view class="cashFlow-remind">
+    <text class="remind-item">温馨提示：</text>
+    <text class="remind-item">1：客户确认收货后，过7天无理由退换货期后，即可提现。</text>
+    <text class="remind-item">2：平台提现到个人微信钱包。</text>
+    <text class="remind-item">3：提现金额为10元起提现，请在每周三9:00-17:00提现，平台会进行审核发放！感谢您的支持！</text>
+    <text class="remind-item">4：提现当日，每人发放不得超过2次，否则发放不了。</text>
+  </view>
+  <view class="withdrawals" bindtap="withdrawals">
+    确认提现
+  </view>
+</view>
+<!-- loadding -->
+<view class="loadding" wx:if="{{onLoaded}}">
+    <image src="../../public/images/loadding.gif"></image>
+</view>

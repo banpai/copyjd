@@ -1,0 +1,164 @@
+.center-body{
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+}
+.header-box {
+    background-color: #CB1927;
+    background-size: 100% 100%;
+}
+.vip-info-bg {
+   display:flex;
+   height:272rpx;
+   position:relative;
+   align-items:center;
+}
+
+.section{
+    flex:1;
+}
+.user-header-pic image {
+    width:120rpx;
+    height:120rpx;
+    border-radius:50%;
+
+}
+.user {
+   color:#fff;
+}
+.user .username {
+    font-size:18px;
+}
+.user .userlevel {
+    font-size:12px;
+}
+.user .useredit {
+   position:absolute;
+   right:30rpx;
+   top:190rpx;
+}
+.user-nav-box  {
+    border-top:1px solid rgba(255,255,255,.1);
+    padding:30rpx 0;
+    font-size:16px;  
+    overflow: hidden;
+    color: #fff;
+}
+.user-nav-box .nav-left {
+    width:50%;
+    float:left;
+    text-align:center;
+    border-right:1px solid rgba(255,255,255,.1);
+    
+
+}
+.user-nav-box .nav-right {
+    width:49.5%;
+    float:left;
+    text-align:center; 
+}
+.tiancong {
+    height:10px;
+    width:100%;
+    background:#F6F6F9;
+}
+.order {
+    height:40px;
+    line-height:40px;
+    border-bottom:1px solid #F6F6F9;
+    padding: 10rpx 30rpx;
+    display: flex;
+    justify-content: center
+}
+.order .left-item{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.order .right-item{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+.order-icon {
+    display: flex;
+   width:40rpx;
+   height:40rpx;
+   
+}
+.order .myorder {
+    display: flex;
+    padding-left:20px;
+}
+.order .arrow {
+    float:right;
+    width:10px;
+    height:10px;
+    border-top:1px solid #939393;
+    border-right:1px solid #939393;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg); 	/* IE 9 */
+    -moz-transform:rotate(45deg); 	/* Firefox */
+    -webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+    -o-transform:rotate(45deg); 
+    display: flex;
+}
+.order .myorder-all {
+   display: flex;   
+   color:#888888;
+}
+.mydingdan {
+   display:flex;
+    justify-content:center;
+    width:100%;
+    padding: 50rpx 0;
+}
+.mydingdan .mydingdan-list {
+    padding: 0 10rpx;
+    border-right: 1px solid #F6F6F9;
+    flex: 1;
+    position:relative;
+}
+.mydingdan-list .dingdan-icon image{
+    width: 100%;
+    height: 100%
+}
+.mydingdan-list .dingdan-icon {
+    width:50rpx;
+    height:50rpx;
+    margin:0 auto;   
+}
+
+.mydingdan-list .num{
+    text-align:center;
+    background:#EC5151;
+    color:#fff;
+    width:22px;
+    height:22px;
+    line-height: 22px;
+    border-radius:11px;
+    position:absolute;
+    right:24px;
+    top:-12px;
+}
+.mywallet {
+     padding: 0 10rpx;
+    border-right: 1px solid #F6F6F9;
+    flex: 1;
+    text-align:center;
+}
+.mywallet .wallet-top {
+    color:#EC5171;
+    font-size:20px;
+}
+.mydingdan text {
+    font-size:14px;
+    color:#888888;
+    display: block;
+    text-align: center;
+}
+.user-header-pic {
+    text-align:center;
+
+    width:180rpx;
+}
